@@ -6,9 +6,6 @@ import { useEffect, useRef, useState } from 'react';
 
 import { Canvas, extend, useFrame } from '@react-three/fiber';
 
-import lanyardImg from "../../assets/lanyard.png";
-import profileImg from "../../assets/kiki1.png";
-
 import {
   useTexture,
   Environment,
@@ -38,11 +35,8 @@ extend({
   MeshLineMaterial
 });
 
-const lanyard =
-  lanyardImg;
-
-const profile =
-  profileImg;
+const lanyard = "/assets/lanyard.png";
+const profile = "/assets/kiki1.png";
 
 export default function Lanyard({
   position = [0, 0, 30],
