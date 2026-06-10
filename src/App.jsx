@@ -10,6 +10,8 @@ import Aurora from "./components/Aurora/Aurora";
 import AOS from "aos";
 import ChatRoom from "./components/ChatRoom";
 import "aos/dist/aos.css";
+import rizqiImage from "./assets/rizqi.png";
+import resumeFile from "./assets/Resume.pdf";
 
 AOS.init();
 
@@ -25,16 +27,6 @@ function App() {
   const handleCloseModal = () => {
     setSelectedProject(null);
   };
-
-  useEffect(() => {
-    const isReload =
-      performance.getEntriesByType("navigation")[0]?.type === "reload";
-
-    if (isReload) {
-      const baseUrl = window.location.origin + "/portofolio/";
-      window.location.replace(baseUrl);
-    }
-  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -74,7 +66,7 @@ function App() {
           <div data-aos="fade-up">
 
             <div className="glass inline-flex gap-3 px-5 py-2 rounded-full mb-6 shadow-lg">
-              <img src="./assets/rizqi.png" className="w-9 rounded-md" />
+              <img src={rizqiImage} className="w-9 rounded-md" />
               <q className="opacity-80">Learning, building, and creating impact through technology.</q>
             </div>
 
@@ -93,7 +85,7 @@ function App() {
             <div className="flex gap-4">
 
               <a
-                href="./assets/Resume.pdf"
+                href={resumeFile}
                 download="Rizqi_Fajri_CV.pdf"
                 className="btn-primary"
               >
@@ -119,7 +111,7 @@ function App() {
               handle="rizqifajri"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/rizqi.png"
+              avatarUrl={rizqiImage}
               showUserInfo={true}
               enableTilt={true}
             />
