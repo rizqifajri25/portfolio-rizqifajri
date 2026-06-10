@@ -84,13 +84,7 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
+
   {
     id: 10,
     gambar: Tools10,
@@ -163,78 +157,78 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek1 from "/assets/proyek/projek1.png";
+import Proyek2 from "/assets/proyek/projek3.png";
+import Proyek3 from "/assets/proyek/projek2.png";
+import Proyek4 from "/assets/proyek/projek4.png";
+import Proyek5 from "/assets/proyek/projek6.png";
+import Proyek6 from "/assets/proyek/projek-6.png";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+    title: "Rizqi Travel – Hajj & Umrah Service Platform",
+    subtitle: "Rizqi Travel is a web-based platform designed to...",
+    fullDescription:"Rizqi Travel is a web-based platform designed to simplify access to trusted Hajj and Umrah travel services. The platform provides comprehensive information about travel packages, promotions, service highlights, and customer support in a modern, transparent, and user-friendly digital experience. By leveraging AI technology, Rizqi Travel offers personalized recommendations and efficient service management, making it easier for users to plan their spiritual journeys with confidence and ease.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/rizqifajri25/rizqi-travel",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+    title: "PadelFinder – Discover & Share Padel Courts",
+    subtitle: "PadelFinder is a Flutter-based mobile application designed to...",
+    fullDescription:"PadelFinder is a Flutter-based mobile application designed to help users discover, explore, and share padel courts in Palembang. The application serves as a community-driven platform where players can find nearby courts, access court information, and contribute by posting new locations. With an intuitive interface and seamless navigation, PadelFinder enhances the padel playing experience by connecting players with the best courts in their area, fostering a vibrant community of padel enthusiasts.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/rizqifajri25/projek-pab-2",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
-    subtitle: "An IoT-based healthcare project developed to measure and monitor...",
-    fullDescription:"An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+    title: "Sumsel Peduli – Local Crowdfunding & Donation Platform",
+    subtitle: "Sumsel Peduli is a web-based crowdfunding and donation platform designed to...",
+    fullDescription:"Sumsel Peduli is a web-based crowdfunding and donation platform designed to support social initiatives and fundraising activities across South Sumatra. The platform enables individuals and organizations to create donation campaigns, receive contributions, and transparently manage fundraising activities through an integrated administration system. With a focus on community engagement and social impact, Sumsel Peduli provides a user-friendly interface for donors and campaign organizers, fostering a culture of giving and support for various causes within the region.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/rizqifajri25/projek-rpl",
     dad: "300",
   },
   {
     id: 4,
     image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    title: "Universitas Darma Umum – SIAKAD Campus Information System",
+    subtitle: "Universitas Darma Umum SIAKAD is a web-based academic information system designed to...",
+    fullDescription:"Universitas Darma Umum SIAKAD is a web-based academic information system designed to streamline administrative processes and enhance the educational experience for students, faculty, and staff. The system provides comprehensive features for course registration, grade management, scheduling, and communication between stakeholders. By integrating modern technologies and user-friendly interfaces, the SIAKAD system aims to improve efficiency, transparency, and accessibility within the university’s academic environment.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/rizqifajri25",
     dad: "400",
   },
     {
     id: 5,
     image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
+    title: "Field Task Verification System",
+    subtitle: "Field Task Verification System is a Flutter-based mobile application designed to...",
+    fullDescription:"Field Task Verification System is a Flutter-based mobile application designed to facilitate the verification of field tasks for employees. The application allows users to submit task reports, including photos and descriptions, which are then reviewed and verified by supervisors. With features such as real-time notifications, task tracking, and a user-friendly interface, the system aims to improve communication and accountability in field operations, ensuring that tasks are completed efficiently and accurately.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/rizqifajri25",
     dad: "500",
   },
   {
     id: 6,
     image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
+    title: "Savora – Sustainable Food Waste Management App (UI/UX Design)",
+    subtitle: "Savora is a UI/UX design project created using Figma with the goal of...",
+    fullDescription:"Savora is a UI/UX design project created using Figma with the goal of addressing food waste management through a user-friendly mobile application. The design focuses on providing an intuitive interface for users to track their food inventory, receive notifications about expiring items, and access tips for reducing waste. By promoting sustainable practices and encouraging mindful consumption, Savora aims to empower users to make informed decisions about their food usage and contribute to a more sustainable future.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/rizqifajri25",
     dad: "600",
   },
 ];

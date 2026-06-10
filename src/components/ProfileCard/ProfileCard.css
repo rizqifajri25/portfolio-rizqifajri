@@ -182,11 +182,11 @@
 }
 
 .pc-avatar-content .avatar {
-  width: 100%;
+  width: 75%; /* avatar lebih kecil */
   position: absolute;
   left: 50%;
   transform: translateX(-50%) scale(1);
-  bottom: 2px;
+  bottom: 10px;
   opacity: calc(1.75 - var(--pointer-from-center));
 }
 
@@ -294,9 +294,10 @@
 .pc-details {
   width: 100%;
   position: absolute;
-  top: 3em;
+  top: 1.2em; /* lebih atas */
   display: flex;
   flex-direction: column;
+  z-index: 10;
 }
 
 .pc-details h3 {
@@ -305,7 +306,7 @@
   font-size: min(5svh, 3em);
   margin: 0;
   background-image: linear-gradient(to bottom, #fff, #6f6fbe);
-  background-size: 1em 1.5em;
+  background-size: 2em;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
